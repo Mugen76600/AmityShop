@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>Amity SHOP</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="assets/import/Bootstrap/bootstrap.min.css" />
+    <link href="assets/import/MDBootstrap/mdb.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.ico">
+</head>
+
+<body>
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i class="fas fa-ghost mr-2 animated swing slower infinite"></i> Amity <span
+                class="red-text">SHOP</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item mr-5">
+                    <a href="#navPoupons" class="nav-link waves-effect waves-light">Poupons <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-5">
+                    <a href="#navFrusques" class="nav-link waves-effect waves-light">Frusques</a>
+                </li>
+                <li class="nav-item mr-5">
+                    <a href="#navBibelots" class="nav-link waves-effect waves-light">Bibelots</a>
+                </li>
+                <li class="nav-item mr-5">
+                    <a class="nav-link waves-effect waves-light" href="#navContacts">Contacts</a>
+                </li>
+            </ul>
+            <a id="openCart" data-toggle="modal" data-target="#cart" class="btn-floating btn-md btn-red"><i
+                    class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+    <!-- Fin NavBar-->
+
+    <!-- Contenu -->
+    <main>
+        <!-- Header -->
+        <div class="view jarallax" style="height: 100vh;">
+            <img class="jarallax-img" src="assets/img/header.jpg" alt="House">
+            <div class="mask text-white">
+                <div class="container flex-center text-center">
+                    <div class="row mt-5">
+                        <div class="col-md-12 wow fadeIn mb-3">
+                            <h1 class="display-3 mb-2 wow fadeInDown" data-wow-delay="0.3s">Amity <span
+                                    class="red-text font-weight-bold">SHOP</span>
+                            </h1>
+                            <h5 class="text-uppercase mb-3 mt-1 font-weight-bold wow fadeIn" data-wow-delay="0.4s">
+                                Ventes d'objets hantés <i
+                                    class="fas fa-ghost ghost1 ml-2 animated swing slower infinite"></i>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Header -->
+        <!-- Cards Container -->
+        <div id="cardsContainer">
+            <div id="navPoupons" class="spaceCat"></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="white-text hoverable"><strong id="poupons"><a>Poupons</a></strong></h1>
+                </div>
+            </div>
+            <!-- Poupons container -->
+            <div id="pouponsContainer">
+                <!-- Card deck -->
+                <div class="row">
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/doll1.jpg" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory11" class="btn btn-elegant"><span
+                                    class="h4 red-text">Caroline</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">L'une des rares rescapées du Grand Incendie de 1666.</p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">30 âmes</span></h3>
+                                <a data-ref="00666" data-price="30" data-name="Caroline" type="button" id="btnDoll1"><i
+                                        data-toggle="popover" data-placement="top"
+                                        data-content="Cet article a été ajouté à votre panier."
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/doll2.jpg" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory12" class="btn btn-elegant"><span
+                                    class="h4 red-text">Heidi</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">Elle tuerait pour son troupeau... Vraiment... </p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">25 âmes</span></h3>
+                                <a data-ref="00623" data-price="25" data-name="Heidi" type="button" id="btnDoll2"><i
+                                        data-toggle="popover" data-placement="top"
+                                        data-content="Cet article a été ajouté à votre panier."
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/doll3.jpg" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory13" class="btn btn-elegant"><span
+                                    class="h4 red-text">Bandit manchot</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">N'essayez pas de lui voler ses sucreries... </p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">25 âmes</span></h3>
+                                <a data-ref="00966" data-price="25" data-name="Bandit manchot" type="button"
+                                    id="btnDoll3" data-toggle="popover" data-placement="top"
+                                    data-content="Cet article a été ajouté à votre panier."><i
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                </div>
+                <!-- Fin Card deck -->
+            </div>
+            <!-- Fin Poupons container -->
+            <div id="navFrusques" class="spaceCat"></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="white-text hoverable"><strong id="frusques"><a>Frusques</a></strong></h1>
+                </div>
+            </div>
+            <!-- Frusques container -->
+            <div id="frusquesContainer">
+                <!-- Card deck -->
+                <div class="row">
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/frusque1.jpg" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory21" class="btn btn-elegant"><span
+                                    class="h4 red-text">Robe de mariée</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">Jusqu'à ce que la Mort nous sépare.</p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">150 âmes</span></h3>
+                                <a data-ref="83566" data-price="150" data-name="Robe de mariée" type="button"
+                                    id="btnFrusques1" data-toggle="popover" data-placement="top"
+                                    data-content="Cet article a été ajouté à votre panier."><i
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/frusque2.jpg" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory22" class="btn btn-elegant"><span
+                                    class="h4 red-text">Casque de Vark Dador</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">Pour les apprentis dictateurs intergalactiques.</p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">200 âmes</span></h3>
+                                <a data-ref="10524" data-price="200" data-name="Casque de Vark Dador" type="button"
+                                    id="btnFrusques2" data-toggle="popover" data-placement="top"
+                                    data-content="Cet article a été ajouté à votre panier."><i
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/frusque3.jpg" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory23" class="btn btn-elegant"><span
+                                    class="h4 red-text">Mocassins de Michel</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">Défiez la gravité.</p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">300 âmes</span></h3>
+                                <a data-ref="99613" data-price="300" data-name="Mocassins de Michel" type="button"
+                                    id="btnFrusques3" data-toggle="popover" data-placement="top"
+                                    data-content="Cet article a été ajouté à votre panier."><i
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                </div>
+                <!-- Fin Card deck -->
+            </div>
+            <!-- Fin Frusques container -->
+            <div id="navBibelots" class="spaceCat"></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="white-text hoverable"><strong id="bibelots"><a>Bibelots</a></strong></h1>
+                </div>
+            </div>
+            <!-- Bibelots container -->
+            <div id="bibelotsContainer">
+                <!-- Card deck -->
+                <div class="row">
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/obj1.jpg" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory31" class="btn btn-elegant"><span
+                                    class="h4 red-text">Planche de Ouija</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">Elle jouera aussi sans vous.</p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">10 âmes</span></h3>
+                                <a data-ref="65432" data-price="10" data-name="Planche de Ouija" type="button"
+                                    id="btnObjects1" data-toggle="popover" data-placement="top"
+                                    data-content="Cet article a été ajouté à votre panier."><i
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/obj2.jpg" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory32" class="btn btn-elegant"><span
+                                    class="h4 red-text">Drop the bass</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">J'espère que vous aimez les Beach Boys.</p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">10 âmes</span></h3>
+                                <a data-ref="00980" data-price="10" data-name="Drop the bass" type="button"
+                                    id="btnObjects2" data-toggle="popover" data-placement="top"
+                                    data-content="Cet article a été ajouté à votre panier."><i
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                    <!-- Card -->
+                    <div class="card mb-4 box">
+                        <!--Card image-->
+                        <div>
+                            <img class="card-img-top" src="assets/img/obj3.png" alt="Card image cap">
+                        </div>
+                        <!--Contenu card-->
+                        <div class="card-body bg-dark">
+                            <!--Titre-->
+                            <button data-toggle="modal" data-target="#itemStory33" class="btn btn-elegant"><span
+                                    class="h4 red-text">Téléphone rouge</span></button>
+                            <!--Texte-->
+                            <p class="card-text text-white">Ne sert pas à contacter les Super Nanas.</p>
+                            <!-- Badge de prix et bouton d'ajout au panier -->
+                            <div class="row">
+                                <h3><span class="text-white">10 âmes</span></h3>
+                                <a data-ref="33466" data-price="10" data-name="Téléphone rouge" type="button"
+                                    id="btnObjects3" data-toggle="popover" data-placement="top"
+                                    data-content="Cet article a été ajouté à votre panier."><i
+                                        class="fas fa-cart-arrow-down red-text"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Card -->
+                </div>
+                <!-- Fin Card deck -->
+            </div>
+            <!-- Fin Bibelots container -->
+        </div>
+        <div class="view jarallax">
+            <img class="jarallax-img" src="assets/img/footer.jpg" alt="Wood">
+        </div>
+    </main>
+    <!-- Fin Contenu -->
+
+    <!-- Footer -->
+    <div id="navContacts" class="spaceCat"></div>
+    <footer class="page-footer font-small">
+        <div class="row" id="contacts">
+            <div class="col-lg-12 text-center">
+                <h1 class="text-center mb-5">Nous Contacter</h1>
+                <p><i class="fas fa-at mr-2 red-text"></i><a href="mailto:amityshopSav@gmail.com">amityshopSav@gmail.com
+                </p></a>
+                <p><i class="fas fa-map-marker-alt mr-2 red-text"></i><a
+                        href="https://goo.gl/maps/C7svu1pHMywpuQED8">112 Ocean Avenue, AmityVille, ETATS-UNIS</p></a>
+            </div>
+        </div>
+        <!-- Footer Elements -->
+        <div class="container">
+            <!-- Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12 py-5 ml-5">
+                    <div class="mb-5 flex-center">
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg red-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Fin Grid column -->
+            </div>
+            <!-- Fin Grid row-->
+        </div>
+        <!-- Fin Footer Elements -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3"> © 2019 Copyright: Alexandre, Angélique.
+        </div>
+        <!-- Fin Copyright -->
+    </footer>
+    <!-- Fin Footer -->
+
+    <!-- Modals -->
+    <!-- Modal Poupée 1 -->
+    <div class="modal fade" id="itemStory11" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Caroline</h5>
+                </div>
+                <div class="modal-body text-white">
+                    Lors du Grand Incendie de Londres en septembre 1666, plus de 13000 habitations ont brûlées.
+                    Officiellement, il y a eu peu de victimes. En réalité, plusieurs milliers de personnes ont péri. Le
+                    feu a démarré dans une boulangerie à l'Est de la ville. Le feu était d'une telle chaleur que même
+                    l'acier importé stocké sur les quais a fondu.</br>Pourquoi cette précision ?</br></br>Parce qu'avec
+                    une telle
+                    chaleur, n'importe quel corps humain disparaît complètement, ne laissant que des fragments
+                    d'os.</br></br>Lorsque les travailleurs qui ramassait les débris après l'incendie déblayèrent les
+                    restes
+                    de la boulangerie d'où le feu était parti, ils ne retrouvèrent que cette poupée, intacte. La poupée
+                    ne peut être lavée, elle est toujours couverte de suie.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Poupée 2 -->
+    <div class="modal fade" id="itemStory12" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Heidi</h5>
+                </div>
+                <div class="modal-body text-white">
+                    Au XVIIe siècle, une famille fut bannie d'une plantation pour y avoir critiqué la communauté
+                    religieuse. Ils partirent s'installer en lisière de forêt pour vivre du maïs et de l'élevage de
+                    bêtes. Dès lors, la famille fut frappée par le malheur. Le cadet de la famille disparut peu de temps
+                    après leur installation à la ferme. L'unique fille de la famille partit en forêt avec son frère
+                    pour y chasser de quoi manger.</br></br>Elle revint seule.</br></br>Le père de famille mourut
+                    encorné par le
+                    bouc de sa fille. La mère accusa sa fille. Cette dernière poignarda sa mère en se défendant.
+                    Désormais orpheline, elle s'enfonça dans la forêt et personne ne la revit jamais.</br></br>Cette
+                    poupée
+                    lui appartient.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Poupée 3 -->
+    <div class="modal fade" id="itemStory13" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Bandit Manchot</h5>
+                </div>
+                <div class="modal-body text-white">
+                    Chez les Roms, Mamiori signifie "petite grand-mère". Selon la légende, la Mamiori parcourt les
+                    routes, surtout la nuit. Elle observe les gens, et grâce à ses pouvoirs, elle les punit parfois. Un
+                    jour, elle croisa le chemin d'un homme fortuné et bien en chair. Elle décida de le tester. Elle vint
+                    le trouver, sous la forme d'une vieille en
+                    haillons, pour quémander à manger.</br></br>"La charité s'il te plaît ! Je suis vieille et malade et
+                    dehors il fait froid.</br>- Je n'ai rien, va-t'en vieille crasseuse !"</br></br>Sentant l'odeur du
+                    doux fumet s'échappant de l'ouverture de la porte, la Mamiori repartit avec un sourire
+                    mauvais.</br></br>Parfois, l'œil du Bandit Manchot s'agite avec envie lorsque de la nourriture est à
+                    proximité.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Frusque 1 -->
+    <div class="modal fade" id="itemStory21" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Robe de mariée</h5>
+                </div>
+                <div class="modal-body text-white">
+                    Hannah était issue d'une riche famille d'aristocrates. Elle fut séduite par un Lord au charme et à
+                    l'élégance hors du commun, et après plusieurs rendez-vous dans le plus grand secret, ils décidèrent
+                    d'officialiser leur amour en se mariant.</br></br>Hélas, les parents d'Hannah digérèrent mal la
+                    nouvelle.</br></br>Ils connaissaient bien le Lord, et ils ne souhaitaient pas que leur fille
+                    s'unisse avec un homme dont la famille était au bord de la ruine. Hannah et le jeune homme prirent
+                    la décision de se marier dans le secret, puis de fuir ensemble. Une nuit, Hannah enfila sa robe de
+                    mariée, vola de l'argent dans la réserve de ses parents, et s'enfuit vers le point de rendez-vous,
+                    dans le bois derrière le manoir.</br></br>Lorsqu'elle arriva, il n'y avait personne. Après une
+                    attente interminable, elle entendit un craquement dans son dos, puis sentit une chaleur sur la
+                    poitrine. La lame avait glissé délicatement sur son cou. Elle eu juste le temps d'apercevoir le Lord
+                    prendre l'argent avant que la vie ne la quitte.</br></br>Le lendemain, les parents d'Hannah
+                    retrouvèrent la robe, mais jamais leur fille.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Frusque 2 -->
+    <div class="modal fade" id="itemStory22" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Casque de Vark Dador</h5>
+                </div>
+                <div class="modal-body text-white">
+                    Il y a bien longtemps, dans une galaxie lointaine, très lointaine...</br></br>C'est une époque de
+                    guerre civile. A bord de vaisseaux spatiaux opérant à partir d'une base cachée, les Rebelles ont
+                    emporté leur première victoire sur le maléfique Empire Galactique.</br></br>Au cours de la bataille,
+                    des espions rebelles ont réussi à dérober les plans secrets de l'arme absolue de l'Empire : le Cube
+                    de la Mort, une station spatiale blindée dotée d'un équipement assez puissant pour annihiler une
+                    planète tout entière. Poursuivie par des sbires de l'Empire, et Vark, leur sinistre chef
+                    asthmatique, la princesse Lele file vers
+                    sa base dans son vaisseau cosmique, porteuse des plans volés à l'ennemi qui pourront sauver son
+                    peuple et restaurer la liberté dans la galaxie...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Frusque 3 -->
+    <div class="modal fade" id="itemStory23" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Mocassins de Michel</h5>
+                </div>
+                <div class="modal-body text-white">
+                    Vous ne rêvez pas, ces chaussures ont réellement été portées par Michel Klaxon, le petit prodige
+                    de la famille Klaxon. Alors que Michel et ses frères étaient encore des enfants en âge d'apprécier
+                    les Backstreet Boys, leur père voulu faire d'eux des stars. Pour se faire, il leur imposa un régime
+                    à base d'exercice, de chant, et de danse.</br></br>Les
+                    Klaxons 5 acquièrent néanmoins une énorme notoriété, et leurs chansons sont connues dans le monde
+                    entier. Après des années de tournées interminables, Michel eut besoin de repos, et quitta le groupe.
+                    Il partit s'installer loin de toute civilisation, à Dunkerque.</br></br>Après plusieurs années,
+                    Michel annonça un album solo, et par la même occasion son retour sous les projecteurs. Pour fêter
+                    l'évènement, il organisa une soirée durant laquelle il chanterait un titre de l'album en
+                    avant-première.</br></br>Sa prestation changea le monde de la danse à tout jamais.</br></br>Ce que
+                    vous ne savez
+                    pas, c'est que ce sont les chaussures qui dansaient, Michel ne faisait que suivre le mouvement.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Bibelot 1 -->
+    <div class="modal fade" id="itemStory31" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Planche de Ouija</h5>
+                </div>
+                <div class="modal-body text-white">
+                    Los Angeles, 1967. Alice et ses deux filles, Paulina et Doris, sont de fausses médiums qui arnaquent
+                    leurs clients lors de séances de tables tournantes truquées. Lorsqu'elles commandent un jeu de
+                    Ouija, elles pensent avoir affaire à une nouvelle arnaque, mais Doris, la benjamine de la famille,
+                    prétend que la planche se déplace réellement toute seule lorsqu'elle utilise le jeu. Bien qu'au
+                    début sceptiques, Alice et Paulina comprendront que la planche de Ouija a réellement fonctionné avec
+                    Doris.</br></br>Au fur et à mesure des séances, Doris apprend que le fantôme avec qui elle
+                    communique était un médecin psychopathe qui a vécu dans leur maison. Rapidement, les séances de
+                    Ouija mènent à la possession de Doris par l'esprit du médecin décédé.</br></br>Doris a massacré sa
+                    famille et a fini abattue par la police.</br></br>Vous ne me croyez pas ? Achetez la planche et
+                    demandez-lui vous-même.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Bibelot 2 -->
+    <div class="modal fade" id="itemStory32" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Drop the bass</h5>
+                </div>
+                <div class="modal-body text-white">
+                    "Surfin' U.S.A." by The Beach Boys</br></br>If everybody had an ocean</br>Across the U.S.A.</br>Then
+                    everybody'd be surfin'</br>Like
+                    Californi-a</br>You'd seem 'em wearing their baggies</br>Huarachi sandals too</br>A bushy bushy
+                    blonde hairdo</br>Surfin' U.S.A.</br></br>You'd catch 'em surfin' at Del Mar</br>Ventura county
+                    line</br>Santa Cruz and Trestle</br>Australia's Narabine</br>All over Manhattan</br>And down Doheny
+                    Way</br></br>Everybody's gone surfin'</br>Surfin' U.S.A.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Bibelot 3 -->
+    <div class="modal fade" id="itemStory33" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-lg modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Téléphone rouge</h5>
+                </div>
+                <div class="modal-body text-white">
+                    J'avais environ 13 ans quand j'ai reçu cet appel sur ce même téléphone.</br></br>Moi : Allô
+                    ?</br>Appelant : On veut LA, rends-nous LA.</br>Moi : Je sais pas qui est LA.</br>Appelant : J'ai
+                    dis qu'on voulait récupérer LA. <i>Il raccroche</i>.</br></br>Après l'appel, une voiture se gare
+                    devant la maison et j'entends quelqu'un frapper à la porte de derrière. C'étaient deux enfants qui
+                    demandaient LA.</br></br>L'homme qui est sorti de la voiture me regardait par la fenêtre et m'a dis
+                    : "Tu as LA, rends-la nous."</br></br>Pour info, LA sont les initiales de ma mère.</br></br>Ma soeur
+                    était la seule autre personne dans la maison, elle a pris un couteau et a appelé la police. Les
+                    inconnus sont partis et je les ai jamais revu.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Cart -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog">
+        <!-- Ajout de .modal-dialog-centered à .modal-dialog pour centrer la modal verticalement -->
+        <div class="modal-md modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title red-text">Panier</h5>
+                </div>
+                <div id="cartBody" class="modal-body text-white"></div>
+                <div id="totalCart" class="text-white">TOTAL :</div>
+                <div class="modal-footer">
+                    <button id="emptyCart" type="button" class="btn btn-elegant">Vider le panier</button>
+                    <button type="button" class="btn btn-elegant" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Modals -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/import/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="assets/import/Popper/popper.min.js"></script>
+    <script src="assets/import/Bootstrap/bootstrap.min.js"></script>
+    <script src="assets/import/MDBootstrap/mdb.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        $(function () {
+            // Création des produits ajoutés au panier
+            var nbClick1 = 0;
+            var nbClick2 = 0;
+            var nbClick3 = 0;
+            var nbClick4 = 0;
+            var nbClick5 = 0;
+            var nbClick6 = 0;
+            var nbClick7 = 0;
+            var nbClick8 = 0;
+            var nbClick9 = 0;
+            var sumSoul = 0;
+            $("#btnDoll1").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick1++;
+                if (nbClick1 == 1) {
+                    $("#cartBody").prepend('<div id="doll1" data-price="30"></div>');
+                    $("#doll1").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            $("#btnDoll2").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick2++;
+                if (nbClick2 == 1) {
+                    $("#cartBody").prepend('<div id="doll2" data-price="25"></div>');
+                    $("#doll2").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            $("#btnDoll3").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick3++;
+                if (nbClick3 == 1) {
+                    $("#cartBody").prepend('<div id="doll3" data-price="25"></div>');
+                    $("#doll3").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            $("#btnFrusques1").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick4++;
+                if (nbClick4 == 1) {
+                    $("#cartBody").prepend('<div id="frusques1" data-price="150"></div>');
+                    $("#frusques1").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            $("#btnFrusques2").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick5++;
+                if (nbClick5 == 1) {
+                    $("#cartBody").prepend('<div id="frusques2" data-price="200"></div>');
+                    $("#frusques2").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            $("#btnFrusques3").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick6++;
+                if (nbClick6 == 1) {
+                    $("#cartBody").prepend('<div id="frusques3" data-price="300"></div>');
+                    $("#frusques3").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            $("#btnObjects1").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick7++;
+                if (nbClick7 == 1) {
+                    $("#cartBody").prepend('<div id="objects1" data-price="10"></div>');
+                    $("#objects1").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            $("#btnObjects2").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick8++;
+                if (nbClick8 == 1) {
+                    $("#cartBody").prepend('<div id="objects2" data-price="10"></div>');
+                    $("#objects2").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            $("#btnObjects3").click(function () {
+                var name = $(this).attr("data-name");
+                var ref = $(this).attr("data-ref");
+                var price = $(this).attr("data-price");
+
+                nbClick9++;
+                if (nbClick9 == 1) {
+                    $("#cartBody").prepend('<div id="objects3" data-price="10"></div>');
+                    $("#objects3").html(name + " " + "Réf: " + ref + " " + "Prix: " + price + " âmes");
+                    sumSoul += Number($(this).attr("data-price"));
+                }
+            });
+            // Fin création des produits ajoutés au panier
+            // Calcul de la somme du panier
+            $("#openCart").click(function () {
+                $("#totalCart").html("TOTAL : " + sumSoul + " âmes.");
+            });
+            // Fin calcul somme panier
+            // Vidage panier
+            $("#emptyCart").click(function () {
+                $("#cartBody").empty();
+                sumSoul = 0;
+                $("#totalCart").html("TOTAL : " + sumSoul + " âmes.");
+                nbClick1 = 0;
+                nbClick2 = 0;
+                nbClick3 = 0;
+                nbClick4 = 0;
+                nbClick5 = 0;
+                nbClick6 = 0;
+                nbClick7 = 0;
+                nbClick8 = 0;
+                nbClick9 = 0;
+
+            });
+            // Fin vidage panier
+            // Choix des catégories à afficher
+            $("#poupons").click(function () {
+                $("#pouponsContainer").toggle();
+            });
+            $("#frusques").click(function () {
+                $("#frusquesContainer").toggle();
+            });
+            $("#bibelots").click(function () {
+                $("#bibelotsContainer").toggle();
+            });
+            // Fin choix catégories
+            // object-fit polyfill run
+            objectFitImages();
+            // init Jarallax
+            jarallax(document.querySelectorAll(".jarallax"));
+            jarallax(document.querySelectorAll(".jarallax-keep-img"), {
+                keepImg: true,
+            });
+            // Popover
+            $('[data-toggle="popover"]').popover();
+            // Timeout popover
+            $('[data-toggle="popover"]').click(function () {
+                setTimeout(function () {
+                    $('[data-toggle="popover"]').popover("hide");
+                }, 1700);
+            });
+            // Fin popover
+        });
+    </script>
+</body>
+
+</html>

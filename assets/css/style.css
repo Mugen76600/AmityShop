@@ -1,0 +1,118 @@
+/* Augmentation des fonts pour la lisibilité */
+body,
+html {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large;
+    font-weight: bold;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+/* Décalage pour afficher jumplinks sousu la navbar */
+.spaceCat {
+    height: 91px;
+}
+
+/* Dégradé de couleur derrière les cards */
+#cardsContainer {
+    background: url("../img/spider.png") no-repeat right top, linear-gradient(rgb(37, 37, 37), black);
+}
+
+/* Changement de font du titre Amity SHOP sur la navbar et l'image d'accueil */
+a.navbar-brand,
+h1.display-3.mb-2.wow.fadeInDown,
+h5.text-uppercase.mb-3.mt-1.font-weight-bold.wow.fadeIn {
+    font-family: 'Amatic SC', cursive;
+}
+
+/* Titre des catégories */
+h2 {
+    margin-left: 5%;
+    color: white;
+}
+
+.row {
+    /* Le margin permet d'éviter un scroll horizontal sur la page */
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+/* Dimension des cards */
+.card {
+    width: 50vh;
+}
+
+/* Div créées par le script dans le body de la Modal cart */
+.d-flex {
+    height: 80px;
+    color: black;
+    background-color: red;
+}
+
+#totalCart {
+    border-top: 1px solid white;
+    padding-left: 3%;
+}
+
+.display-3 {
+    font-size: 7.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-shadow: 3px 3px 20px;
+}
+
+.h5,
+h5 {
+    font-size: 2.3rem;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+    text-shadow: 1px 2px 2px;
+}
+
+.btn-floating i {
+    font-size: 20px;
+}
+
+.fa-ghost:before {
+    content: "\f6e2";
+    text-shadow: 1px 2px 20px;
+}
+
+.card-img-top {
+    margin-bottom: -20px;
+}
+
+.fas.fa-cart-arrow-down {
+    font-size: 2rem;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link,
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    text-shadow: red 2px 2px 20px;
+}
+
+.hoverable {
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    transition: 0.4s;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    border-radius: 10px;
+    cursor: red pointer;
+
+}
+
+strong,
+h1.text-center.mb-5 {
+    font-weight: bolder;
+    text-shadow: 0px -1px 20px;
+}
+
+.box:hover {
+    box-shadow: 20px 19px 55px 0px rgba(114, 15, 15, 0.548);
+}
